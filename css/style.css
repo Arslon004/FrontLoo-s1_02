@@ -1,0 +1,82 @@
+html{
+  box-sizing: border-box;
+}
+*,*::before,*::after{
+  box-sizing: inherit;
+}
+body{
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.wrapper{
+  width: 520px;
+  background-color: #fff;
+  margin: 130px auto;
+}
+span{
+  display: inline-block;
+  }
+.card_spans .spancha{
+ width: 8px;
+ height: 8px;
+ border-radius: 50%;
+background-color: rgb(145, 143, 143);
+}
+.card_spans .spancha.active{
+  background-color: black;
+}
+.card_spans{
+  padding: 20px 0;
+  text-align: center;
+}
+.card_title{
+  text-align: center;
+  margin: 0;
+  font-size: 1.7rem;
+  margin-bottom: 40px;
+}
+img{
+  display: inline-block;
+  max-width: 100%;
+}
+img.visa_img,img.mastercard_img,img.maestro_img{
+  position: relative;
+  right: 100px;
+  top: 10px;
+  width: 60px;
+}
+.cards .card{
+  padding: 5px 0;
+  border-top: 1px solid #aaa;
+}
+.card:hover{
+  background-color: #aaa;
+}
+.cards-title{
+ color: #6c6868;
+ margin-left: 150px;
+}
+
+.cards-title.active{
+  color: #000;
+}
+.card_bottom_link{
+  display: block;
+  padding: 15px 0 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  background-color: rgb(135, 111, 244);
+}
+.arrow{
+position: relative;
+top: 5px;
+}
